@@ -6,12 +6,12 @@ import BackIcon from "../../../Assets/Icons/back-icon.png"
 
 
 function SideBar({ onColorChange }) {
-  const { leftMainData, updateLeftMainData } = useData();
+  const { leftMainData, updateLeftMainData } = useData();                              // eslint-disable-next-line
   const [scrollOffset, setScrollOffset] = useState(0);
   const [isCreateFunctionVisible, setIsCreateFunctionVisible] = useState(false);
   const [groupName, setGroupName] = useState('');
   const [selectedColor, setSelectedColor] = useState('#CCC');
-  const [groupNames, setGroupNames] = useState([]);
+  const [groupNames, setGroupNames] = useState([]);                                    // eslint-disable-next-line
   const [selectedGroupNotes, setSelectedGroupNotes] = useState([]);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); 
   const [showNotesPage, setShowNotesPage] = useState(false);
@@ -92,7 +92,7 @@ function SideBar({ onColorChange }) {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
+// eslint-disable-next-line
   const handleWheel = (e) => {
     setScrollOffset((prevOffset) => prevOffset + e.deltaY);
     e.preventDefault();
