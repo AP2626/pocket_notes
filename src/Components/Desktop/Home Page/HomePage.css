@@ -1,0 +1,39 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    background-color: #F7ECDC;
+    justify-content: center;
+    text-align: center;
+    color: #292929;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+.homePage_Image{
+    width: 600px;
+    height: 300px;
+    flex-shrink: 0;
+}
+.homePage_title{
+    font-size: 50px;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.homePage_info{
+    line-height: 32px; 
+    letter-spacing: 0.44px;
+}
+.lock_icon{
+height: 20px;
+width: 15px;
+}
+.homePage_footer{
+    line-height: 32px;
+    letter-spacing: 0.44px;
+    position: absolute;
+    top: 90%;
+    left: 57%;
+}

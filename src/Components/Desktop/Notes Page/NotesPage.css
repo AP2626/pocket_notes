@@ -1,0 +1,242 @@
+body, html {
+    margin: 0; 
+    padding: 0; 
+    ::-webkit-scrollbar {
+        width: none;
+      }
+  }
+.notes_Page {
+    width: 70%;
+    color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+.notePage_header{
+    height: 10%;
+    background-color: #CCC;
+}
+
+
+.notePage_header_title{
+    display: flex;
+    height: 65px;
+    width: 40%;
+    margin: 5px 0 0 20px;
+    color: #FFF;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+}
+.notePage_header_logo{
+font-size: 24.115px;
+line-height: 97.688%;
+letter-spacing: 0.482px;
+height: 60px;
+width: 60px;
+padding: 17px 5px 0 0;
+border-radius: 50%;
+text-align: center;
+}
+.notePage_header_groupName{
+    color: #000;
+font-size: 25px;
+letter-spacing: 0.500px;
+padding: 15px 0 0 30px;
+}
+.notePage_content {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 27rem;
+    background-color: #f7ecdc;
+}
+.notePage_notes{
+    height: auto;
+    padding-top: 15px;
+}
+
+.date_time{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: #353535;
+font-size: 18.634px;
+font-weight: 500;
+line-height: 97.688%; 
+letter-spacing: 0.373px;
+padding: 0px 0 0 50px;
+text-align:left;
+padding-bottom: 20px;
+justify-content: center;
+}
+.time{
+    font-size: 15px;
+}
+.saved_text{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-height: auto;
+    text-align: center;
+    margin: 5px 0 0 15px;
+
+}
+.saved_note_container{
+    display: flex;
+}
+.saved_notes{
+    margin-left: 25px;
+    padding-left: 55px;
+    padding-bottom: 45px;
+
+font-size: 18px;
+font-weight: 400;
+line-height: 160.188%; 
+letter-spacing: 0.63px;
+text-align: left;
+}
+
+
+
+
+.notePage_input{
+    height: 25%;
+    background-color: #CCC;
+}
+.notePage_inputText{
+
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    outline: none;
+    font-size: 25px;
+    margin: 7px 0 0 25px;
+    padding: 2px 0 0 10px;
+    height: 10rem;
+    width: 95%;
+    resize: none;
+    letter-spacing: 0.596px;
+}
+.sendIcon{
+    position: absolute;
+    bottom: 7vh;
+    right: 8vh;
+    width: 30px;
+    height: 30px;
+}
+
+  @media only screen and (max-width: 768px) {
+  .notes_Page {
+    height: 100%;
+      width: 100%;
+  }
+  .notes_Page {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+.notePage_header{
+    height: 10%;
+    background-color: #CCC;
+}
+.notePage_header_title{
+    display: flex;
+    height: 65px;
+    width: 80%;
+    margin: 0px 0 0 7%;
+    color: #FFF;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+}
+.notePage_header_logo{
+font-size: 18px;
+line-height: 97.688%; 
+letter-spacing: 0.482px;
+height: 50px;
+width: 50px;
+padding: 16px 0px 0 0;
+margin: 7px 0 0 10px;                                
+border-radius: 50%;
+text-align: center;
+}
+.notePage_header_groupName{
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 0.500px;
+    padding: 20px 0 0 20px;
+}
+
+.notePage_notes{
+    height: auto;
+    padding-top: 15px;
+}
+
+.date_time{
+    width: 20%;
+font-size: 12px;
+padding: 0px 0 0 15px;
+}
+.time{
+    font-size: 10px;
+}
+.saved_text{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-height: auto;
+    text-align: center;
+    margin: 5px 0 0 5px;
+
+}
+.saved_note_container{
+    display: flex;
+}
+.saved_notes{
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-bottom: 45px;
+font-size: 14px;
+font-weight: 400;
+line-height: 160.188%; 
+letter-spacing: 0.63px;
+text-align: left;
+}
+
+.notePage_input{
+    height: 25%;
+    background-color: #CCC;
+}
+.notePage_inputText{
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    margin: 12px 0 0 15px;
+    padding: 2px 0 0 10px;
+    height: 9rem;
+    width: 95%;
+    resize: none;
+    letter-spacing: 0.596px;
+}
+.sendIcon{
+    position: absolute;
+    bottom: 7%;
+    right: 7%;
+    width: 20px;
+    height: 20px;
+}
+.back-button {
+    position: absolute;
+    z-index: 10;
+    top: 4%;
+    left: 3.5%;
+    background-color: transparent;
+    border: none;
+    width: 20px;
+}
+}

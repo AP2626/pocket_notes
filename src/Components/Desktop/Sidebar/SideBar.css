@@ -1,0 +1,271 @@
+.side_bar{
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.sidebar_heading{
+    color: #000;
+font-family: Roboto;
+font-size: 31.52px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.63px;
+margin: 10px 0 0 40px;
+}
+
+
+.button{
+margin: 7% 0 0  10%;
+}
+
+.create_button{
+    color: #FFF;
+font-family: Roboto;
+font-size: 27px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.54px;
+background-color: black;
+border: none;
+border-radius: 20px;
+width: 80%;
+height: 45px;
+}
+
+.create_function{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 700px;
+height: 300px;
+flex-shrink: 0;
+background-color: white;
+}
+
+.createFunction_title{
+    padding-top: 20px;
+font-size: 29px;
+line-height: 160.188%; 
+letter-spacing: 1.015px;
+}
+
+.create_function_text{
+    color: #000;
+font-family: Roboto;
+font-size: 27.314px;
+font-style: normal;
+font-weight: 500;
+line-height: 160.188%; 
+letter-spacing: 0.956px;
+}
+
+.groupName{
+    margin: 30px;
+}
+.create_function_input{
+    margin-left: 30px;
+    width: 65%;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #CCC;
+    padding: 20px;
+    font-size: 22px;
+}
+.selectColor{
+    margin: 30px;
+    display: flex;
+}
+.colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+margin-left: 40px;
+}
+.selected_color{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.create_btn{
+    width: 180px;
+height: 40px;
+border-radius: 15px;
+border: none;
+background-color: black;
+color: white;
+margin-left: 70%;
+font-size: 28px;
+}
+.color {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+    margin: 7px;
+  }
+.sideBar_leftTitle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10%;
+    height: 65%;
+    width: 90%;
+    color: #FFF;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+max-height: 65vh;
+overflow-y: auto;
+}
+
+.groupNameTitle_logo{
+font-size: 24.115px;
+line-height: 97.688%; 
+letter-spacing: 0.482px;
+height: 60px;
+width: 60px;
+border-radius: 50%;
+background-color: #000;
+text-align: center;
+margin: 2px 0 0 15px;
+padding: 18px 4px 0px 0px;
+}
+.groupNameTitle{
+    color: #000;
+font-size: 25px;
+line-height: normal;
+letter-spacing: 0.413px;
+padding: 15px;
+margin-left: 10px;
+display: flex;
+}
+
+.leftMain{
+    padding: 17px 0 0 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .side_bar {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(70%);
+      z-index: 100;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    .sideBar_leftTitle{
+        margin-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+
+    }
+    .create_button{
+        color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.54px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    height: 35px;
+    }
+  .create_function{
+    width: 90%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      z-index: 100;
+      overflow-y: auto; 
+  }
+  .createFunction_title{
+    height: 20px;
+    width: 350px;
+    padding-top: 9px;
+    font-size: 17px;
+    line-height: 161.188%;
+    letter-spacing: 1.015px;
+  }
+  .groupName{
+    margin: 30px;
+}
+  .create_function_text{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160.188%;
+    letter-spacing: 0.956px;
+}
+
+.groupName{
+    margin: 20px 0 0 15px;
+}
+.create_function_input{
+    margin-left: 12px;
+    width: 60%;
+    height: 20px;
+    border-radius: 50px;
+    border: 2px solid #CCC;
+    padding: 20px;
+    font-size: 15px;
+}
+.colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+margin-left: 10px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+    margin: 7px;
+  }
+  
+  .selectColor{
+    margin: 20px 0 0 15px;
+}
+
+.selected_color{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.create_btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin:25px 0 0 55%;
+    font-size: 20px;
+}
+.homePage{
+    display: block;
+}
+  }
+  
